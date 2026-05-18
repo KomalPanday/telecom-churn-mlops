@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: telecom-churn-api-service
+  namespace: telecom-churn
+spec:
+  type: LoadBalancer
+  selector:
+    app: telecom-churn-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
