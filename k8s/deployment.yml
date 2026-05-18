@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: telecom-churn-api
-          image: YOUR_DOCKER_USERNAME/telecom-churn-api:latest
+          image: komalpanday360/telecom-churn-api:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
