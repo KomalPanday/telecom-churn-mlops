@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+joblib
+mlflow
+streamlit
+fastapi
+uvicorn
+pydantic
+PyYAML
+sqlalchemy
+psycopg2-binary
